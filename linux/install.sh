@@ -44,8 +44,8 @@ install-dev-tools() {
     ## git
     echo -e "${YELLOW}Install GIT${CLEAR}"
     brew install git
-    git config --global user.email "tilda.lu@trunk-studio.com"
-    git config --global user.name "Tilda"
+    git config --global user.email "4A790162@stust.edu.tw"
+    git config --global user.name "bohan1109"
 
     ## yarn
     echo -e "${YELLOW}Install yarn${CLEAR}"
@@ -55,10 +55,6 @@ install-dev-tools() {
     echo -e "${YELLOW}Install Visual Studio Code${CLEAR}"
     brew install visual-studio-code
 
-    ## mas-cli
-    ## A simple command line interface for the Mac App Store. Designed for scripting and automation.
-    echo -e "${YELLOW}Install mas-cli${CLEAR}"
-    brew install mas
 
     ## VirtualBox
     echo -e "${YELLOW}Install Virtual Box ${CLEAR}"
