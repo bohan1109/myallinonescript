@@ -44,31 +44,12 @@ install-dev-tools() {
     ## git
     echo -e "${YELLOW}Install GIT${CLEAR}"
     brew install git
-    git config --global user.email "4A790162@stust.edu.tw"
+    git config --global user.email "4A790162@gmail.com"
     git config --global user.name "bohan1109"
-
-    ## yarn
-    echo -e "${YELLOW}Install yarn${CLEAR}"
-    brew install yarn
-
+    
     ## Visual Studio Code
     echo -e "${YELLOW}Install Visual Studio Code${CLEAR}"
     brew install visual-studio-code
-
-
-    ## VirtualBox
-    echo -e "${YELLOW}Install Virtual Box ${CLEAR}"
-    brew install virtualbox virtualbox-extension-pack
-
-    ## Docker, Vagrant
-    echo -e "${YELLOW}Install Docker & Vagrant${CLEAR}"
-    brew install docker vagrant
-
-    ## SourceTree
-    echo -e "${YELLOW}Install SourceTree${CLEAR}"
-    brew install --cask sourcetree
-
-
 
     ## ngrok
     echo -e "${YELLOW}Install ngrok${CLEAR}"
@@ -81,24 +62,6 @@ install-basic-tools() {
     brew install google-chrome
 
 
-    ## Zoom, Slack
-    echo -e "${YELLOW}Install Zoom Slack${CLEAR}"
-    brew install zoom slack
-
-
-
-
-
-
-    ## AnyDesk
-    echo -e "${YELLOW}Install AnyDesk${CLEAR}"
-    brew install anydesk
-
-
-}
-
-install-others() {
-
 
 }
 
@@ -109,8 +72,7 @@ install-all() {
     echo -e "${GREEN}Starting Install basic-tools !${CLEAR}"
     install-basic-tools
 
-    echo -e "${GREEN}Starting Install others !${CLEAR}"
-    install-others
+
 }
 
 install-all
