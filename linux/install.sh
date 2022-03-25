@@ -68,13 +68,7 @@ install-dev-tools() {
     echo -e "${YELLOW}Install SourceTree${CLEAR}"
     brew install --cask sourcetree
 
-    ## iTerm2
-    echo -e "${YELLOW}Install iTerm2${CLEAR}"
-    brew install iterm2
 
-    ## Appium
-    echo -e "${YELLOW}Install Appium${CLEAR}"
-    brew install appium
 
     ## ngrok
     echo -e "${YELLOW}Install ngrok${CLEAR}"
@@ -86,45 +80,26 @@ install-basic-tools() {
     echo -e "${YELLOW}Install Google Chrome${CLEAR}"
     brew install google-chrome
 
-    ## Google Drive
-    echo -e "${YELLOW}Install Google Drive${CLEAR}"
-    brew install google-drive
-
-    ## 1Password
-    echo -e "${YELLOW}Install 1Password${CLEAR}"
-    brew install 1password 1password-cli
 
     ## Zoom, Slack
     echo -e "${YELLOW}Install Zoom Slack${CLEAR}"
     brew install zoom slack
 
-    ## Sketch, Figma
-    echo -e "${YELLOW}Install Sketch Figma${CLEAR}"
-    brew install sketch
-    brew install figma
 
-    ## Zeplin
-    echo -e "${YELLOW}Install zeplin ${CLEAR}"
-    brew install zeplin
 
-    ## Line
-    echo -e "${YELLOW}Install Line${CLEAR}"
-    mas install 539883307
+
+
 
     ## AnyDesk
     echo -e "${YELLOW}Install AnyDesk${CLEAR}"
     brew install anydesk
 
-    ## Notion
-    echo -e "${YELLOW}Install Notion${CLEAR}"
-    brew install notion
+
 }
 
 install-others() {
 
-    ##Spotify
-    echo -e "${YELLOW}Install Spotify${CLEAR}"
-    brew install spotify
+
 }
 
 install-all() {
