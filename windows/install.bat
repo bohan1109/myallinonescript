@@ -1,9 +1,9 @@
-::chocolatey
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+::chocolateygui
+choco install chocolateygui
 :: git
 choco install --yes git
 :: python
-choco install --yes python
+::choco install --yes python
 :: SQL Workbench/J 124.0.0
 choco install --yes sql-workbench
 :: Postman for Windows 8.2.3
@@ -11,13 +11,13 @@ choco install --yes postman
 :: Chrome
 choco install -yes googlechrome
 ::note pad++
-choco install -yes notepadplusplus.install
+choco install -yes notepadplusplus
 ::7-zip
 choco install -yes 7zip
 ::zoom
 choco install -yes zoom
 ::node.js
-choco install -yes nodejs.install
+choco install -yes nodejs
 ::vscode
 choco install -yes vscode
 ::powershell
@@ -28,8 +28,7 @@ choco install -yes php
 choco install -yes yarn
 ::cmder
 choco install -yes cmder
-::classic Shell
-choco install -yes classic-shell
+
 ::Line
 choco install -yes line
 ::mysql
@@ -41,7 +40,7 @@ choco install -yes composer
 ::virtualbox
 choco install -yes virtualbox
 ::python pip
-choco install -yes pip
+::choco install -yes pip
 ::teamview
 choco install -yes teamviewer8
 ::anydesk
